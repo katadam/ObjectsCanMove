@@ -100,3 +100,11 @@ We decided to distribute this version in parts, so as to be easier to reproduce 
  ```bash
 bash objectsCanMove.sh
 ```
+
+
+### Paper
+If you find the data useful please consider citing our [paper]:
+
+```
+Objects Can Move: 3D Change Detection by Geometric Transformation Consistency, A. Adam, K.Karantzalos, T.Sattler, T.Pajdla (to appear at ECCV'22)
+```
