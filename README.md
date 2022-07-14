@@ -4,7 +4,7 @@ This is the code of our ECCV'22 paper "Objects Can Move: 3D Change Detection by 
 
 The results are evaluated on the [3Rscan dataset](https://arxiv.org/pdf/1908.06109.pdf), a dataset built towards object instance relocalization. We also provide code for turning  [3Rscan dataset](https://arxiv.org/pdf/1908.06109.pdf) into a change detection/object discovery benchmark. Evaluation is performed in terms of Accuracy, Completeness, Recall and IoU.
 
-![teaser](overallWork.pdf)
+![alt text](overallWork.pdf)
 
 
 ## Setting up environment
