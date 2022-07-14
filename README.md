@@ -1,4 +1,3 @@
-# ObjectsCanMove
 # Objects can move: Change Detection by Geometric Transformation Consistency
 
 This is the code of our ECCV'22 paper "Objects Can Move: 3D Change Detection by Geometric Transformation Consistency". The code is used for object discovery, via change detection on an object-level. Changes are initially detected as differences in the depth maps and segmented as objects if they undergo rigid motions. A graph cut optimization propagates the changing labels to geometrically consistent regions. The final output of the code, are the discovered objects, that are formed using connected component analysis on the discovered changes.
