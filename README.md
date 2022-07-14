@@ -1,7 +1,13 @@
 # ObjectsCanMove
 # Objects can move: Change Detection by Geometric Transformation Consistency
 
-This is the code of our ECCV'22 paper "Objects Can Move: 3D Change Detection by Geometric Transformation Consistency". The code is used for the evaluation of our results on the [3Rscan dataset](https://arxiv.org/pdf/1908.06109.pdf), a dataset built towards object instance relocalization. The pipeline discovers objects based on change detection. Evaluation is performed in terms of Accuracy, Completeness, Recall and IoU.
+This is the code of our ECCV'22 paper "Objects Can Move: 3D Change Detection by Geometric Transformation Consistency". The code is used for object discovery, via change detection on an object-level. Changes are initially detected as differences in the depth maps and segmented as objects if they undergo rigid motions. A graph cut optimization propagates the changing labels to geometrically consistent regions. The final output of the code, are the discovered objects, that are formed using connected component analysis on the discovered changes.
+
+The results are evaluated on the [3Rscan dataset](https://arxiv.org/pdf/1908.06109.pdf), a dataset built towards object instance relocalization. We also provide code for turning 3Rscan into a change detection/object discovery benchmar. Evaluation is performed in terms of Accuracy, Completeness, Recall and IoU.
+
+![teaser](data/img/teaser.png)
+
+
 
 
 ## Setting up environment
